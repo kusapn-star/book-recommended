@@ -1,0 +1,36 @@
+.hero-bg {
+background-color: #e0eef3;;
+}
+h1 {
+  font-family: "Sriracha", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #1f2476;
+}
+
+
+
+h2 {
+   font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #171b6f;
+}
+strong {
+   font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0b0b16;
+}
+p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+.footer-bg {
+background-color: #0c2e5f;
+
+
+}
