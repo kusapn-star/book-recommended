@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booker - 52 เฮิรตซ์ คลื่นเสียงที่ไม่มีใครได้ยิน</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Kanit&family=Sriracha&display=swap"
+        rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="border-bottom py-3">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <!-- 1. โลโก้ และ ชื่อ Booker -->
+            <a href="#" class="d-flex align-items-center text-dark text-decoration-none mb-2 mb-md-0">
+                <img src="images/booker-LOGO.png" alt="Booker LOGO" class="me-2" style="height: 40px;">
+                <span class="fs-4 fw-bold">Booker</span>
+            </a>
+
+            <!-- 2. เมนูย่อย 3 เมนู -->
+            <ul class="nav">
+                <li class="nav-item"><a href="#section2" class="nav-link text-dark">ความรู้ที่ได้จากหนังสือเล่มนี้</a>
+                </li>
+                <li class="nav-item"><a href="#about" class="nav-link text-dark">เกี่ยวกับเรา</a></li>
+                <li class="nav-item"><a href="#download" class="nav-link text-dark">ดาวน์โหลด</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main>
+
+
+        <!-- Hero section -->
+        <section class="py-4 py-md-5 hero-bg">
+            <div class="container">
+
+
+                <!-- 1. แสดงผลเฉพาะหน้าจอ sm -->
+                <div class="d-block d-md-none text-center">
+                    <!-- 1.1 ข้อความหลักขึ้นก่อน -->
+                    <h1 class="fs-2 leading-snug mb-4 mb-sm-5" data-aos="zoom-in-up">
+                        <strong>จะเป็นอย่างไร...</strong><br>
+                        " ถ้าทั้งชีวิตเราต้องส่งเสียงเรียกหา <br>ใครสักคนที่ไม่เคยมีอยู่จริง "
+                    </h1>
+
+                    <!-- 1.2 รูปภาพอยู่ตรงกลาง -->
+                    <div class="my-4 my-sm-5">
+                        <img src="images/52Hzbooker.jpg" alt="อ่านหนังสือ" data-aos="fade-right"
+                            class="img-fluid rounded shadow w-65 mx-auto">
+                    </div>
+
+                    <!-- 1.3 คำโปรยอยู่ล่างสุด -->
+                    <p class="fs-5 leading-relaxed text-secondary mt-4 mt-sm-5">
+                        <strong>"52 เฮิรตซ์ คลื่นเสียงที่ไม่มีใครได้ยิน"</strong>
+                        วรรณกรรมแปลญี่ปุ่นสุดลึกซึ้งที่จะพาคุณไปรู้จักกับชีวิตของตัวละครที่ถูกทอดทิ้งและเผชิญกับบาดแผลในจิตใจ
+                        พวกเขาเปรียบเสมือน "วาฬ 52Hz" ที่ส่งเสียงด้วยคลื่นความถี่สูงเกินกว่าวาฬตัวอื่นในโลกจะได้ยิน
+                        แต่แล้วเรื่องราวอันแสนอบอุ่นที่ค่อย ๆ เยียวยาหัวใจที่เคยบอบช้ำก็ได้เริ่มต้นขึ้น
+
+                    </p>
+                </div>
+
+
+                <!-- 2. แสดงผลเฉพาะหน้าจอ md -->
+                <div class="row align-items-stretch d-none d-md-flex">
+                    <!-- ฝั่งซ้าย: รูปภาพ -->
+                    <div class="col-md-4 offset-md-1 text-center d-flex align-items-center justify-content-center">
+                        <img src="images/52Hzbooker.jpg" alt="อ่านหนังสือ" data-aos="fade-right"
+                            class="img-fluid rounded shadow w-65 mx-auto">
+                    </div>
+
+                    <!-- ฝั่งขวา: ข้อความหลัก + คำโปรย (ล็อกชิดขอบล่างหนังสือ) -->
+                    <div class="col-md-6 offset-md-1 d-flex flex-column justify-content-between text-start py-1">
+                        <!-- ข้อความหลักอยู่กึ่งกลางด้านบน -->
+                        <div class="my-auto py-3">
+                            <h1 class="fs-0 text-center leading-snug mb-0" data-aos="zoom-in-up">
+                                <strong>จะเป็นอย่างไร...</strong><br>
+                                " ถ้าทั้งชีวิตเราต้องส่งเสียงเรียกหา <br>ใครสักคนที่ไม่เคยมีอยู่จริง "
+                            </h1>
+                        </div>
+
+                        <!-- คำโปรยชิดขอบล่าง -->
+                        <div class="mt-auto pt-3">
+                            <p class="fs-5 leading-relaxed text-secondary mb-0">
+                                <strong>"52 เฮิรตซ์ คลื่นเสียงที่ไม่มีใครได้ยิน"</strong>
+                                วรรณกรรมแปลญี่ปุ่นสุดลึกซึ้งที่จะพาคุณไปรู้จักกับชีวิตของตัวละครที่ถูกทอดทิ้งและเผชิญกับบาดแผลในจิตใจ
+                                พวกเขาเปรียบเสมือน "วาฬ 52Hz"
+                                ที่ส่งเสียงด้วยคลื่นความถี่สูงเกินกว่าวาฬตัวอื่นในโลกจะได้ยิน
+                                แต่แล้วเรื่องราวอันแสนอบอุ่นที่ค่อย ๆ เยียวยาหัวใจที่เคยบอบช้ำก็ได้เริ่มต้นขึ้น
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- Section 1 รายละเอียดหนังสือ -->
+        <section id="details" class="py-5 bg-white">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold mb-2">รายละเอียดหนังสือ</h2>
+                    <p class="text-secondary mb-0">
+                        ข้อมูลเบื้องต้นของหนังสือ 52 เฮิรตซ์...คลื่นเสียงที่ไม่มีใครได้ยิน
+                    </p>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- ผู้แต่ง -->
+                    <div class="col-12 col-md-4" >
+                        <div class="card h-100 p-4 border-0 shadow-sm text-center" style="background-color: #e0eef3;">
+
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="images/writer.png" alt="ผู้แต่ง" class="img-fluid" style="height: 120px;">
+                            </div>
+
+                            <h2 class="fs-4 fw-bold mb-3">
+                                ผู้แต่ง
+                            </h2>
+
+                            <p class="card-text fs-5 text-dark mb-0">
+                                มาจิดะ โซโนะโกะ
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- ผู้แปล -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 p-4 border-0 shadow-sm text-center" style="background-color: #e0eef3;">
+
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="images/translator.png" alt="ผู้แปล" class="img-fluid" style="height: 120px;">
+                            </div>
+
+                            <h2 class="fs-4 fw-bold mb-3">
+                                ผู้แปล
+                            </h2>
+
+                            <p class="card-text fs-5 text-dark mb-0">
+                                หนึ่งฤทัย ปราดเปรียว
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- สำนักพิมพ์ -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 p-4 border-0 shadow-sm text-center" style="background-color: #e0eef3;">
+
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="images/publishing.png" alt="สำนักพิมพ์" class="img-fluid"
+                                    style="height: 120px;">
+                            </div>
+
+                            <h2 class="fs-4 fw-bold mb-3">
+                                สำนักพิมพ์
+                            </h2>
+
+                            <p class="card-text fs-5 text-dark mb-0">
+                                Piccolo
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Section 2 - หนังสือเล่มนี้ ให้อะไรกับเรา? -->
+        <section id="section2" class="py-5 bg-light">
+            <div class="container">
+                <!-- 1. หัวข้อชิดซ้าย -->
+                <h2 class="text-center fw-bold mb-4">หนังสือเล่มนี้ ให้อะไรกับเรา?</h2>
+
+                <!-- 2. ส่วนเนื้อหาจัดวางชิดซ้ายตรงกับแนวหัวข้อ -->
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <p class="fs-5 text-dark mb-0" style="text-indent: 4em;">
+                            หนังสือเล่มนี้ทำให้เราได้เรียนรู้ถึงพลังของการรับฟัง เข้าใจ และการเยียวยาซึ่งกันและกัน
+                            ผ่านเรื่องราวของผู้คนที่ต้องเผชิญกับความโดดเดี่ยว การถูกทอดทิ้งและบาดแผลที่เกิดขึ้นจากอดีต
+                            ทำให้เราได้ตระหนักว่า
+                            คนรอบข้างบางคนอาจกำลังส่งเสียงร้องขอความช่วยเหลืออยู่เงียบ ๆ โดยที่เราไม่ทันสังเกต
+                            เพียงแค่การรับฟังอย่างตั้งใจ การใส่ใจ
+                            หรือการยื่นมือเข้าไปช่วยเหลือในเวลาที่เหมาะสมก็อาจมีความหมายและเปลี่ยนแปลงชีวิตของใครบางคนได้
+                            นอกจากนี้
+                            หนังสือยังมอบความหวังให้กับผู้ที่กำลังรู้สึกโดดเดี่ยวว่า
+                            แม้เราจะรู้สึกแตกสลายหรือเปรียบเสมือน “วาฬ 52Hz”
+                            ที่ส่งเสียงออกไปโดยไม่มีใครได้ยิน แต่ไม่ได้หมายความว่าเราจะต้องอยู่เพียงลำพังตลอดไป
+                            เพราะอาจมีใครสักคนที่พร้อมจะรับฟังและเข้าใจเราในสักวันหนึ่งและบางครั้งการได้ช่วยเหลือหรือโอบอุ้มใครสักคน
+                            ก็อาจเป็นสิ่งที่ช่วยเยียวยาหัวใจของเราเอง ทำให้เราเห็นคุณค่าของการมีชีวิตอยู่
+                            ความสัมพันธ์ระหว่างผู้คนและความอบอุ่นเล็ก ๆ
+                            ที่สามารถช่วยเติมเต็มความหมายให้กับชีวิตได้
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 - ประโยชน์ของหนังสือเล่มนี้ -->
+        <section class="py-5">
+            <div class="container">
+                <!-- เปลี่ยนจาก text-center เป็น text-start เพื่อให้ข้อความชิดซ้าย -->
+                <h2 class="text-center fw-bold mb-5">ความรู้ที่ได้จากหนังสือเล่มนี้</h2>
+                <div class="row g-4">
+
+
+                    <!-- คอลัมน์ที่ 1 -->
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card h-100 p-4 border-0 shadow-sm text-center" style="background-color: #e0eef3;">
+                            <!-- ส่วนไอคอน -->
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="images/broken-heart.png" alt="บาดแผลทางจิตใจ" style="height: 64px;">
+                            </div>
+
+                            <!-- ส่วนหัวข้อหลัก (สีน้ำเงิน ตัวหนา) -->
+                            <h2 class="fs-4 fw-bold mb-3">
+                                บาดแผลทางจิตใจ
+                            </h2>
+
+                            <!-- ส่วนเนื้อหา (ข้อความปกติ สีเข้มอ่านง่าย) -->
+                            <p class="card-text fs-5 text-dark leading-relaxed mb-0">
+                                ความรุนแรงในวัยเด็กส่งผลต่อคุณค่าในตนเองรวมถึงการไว้ใจผู้อื่น <br>เมื่อเติบโตเป็นผู้ใหญ่
+                            </p>
+                        </div>
+                    </div>
+                    <!-- คอลัมน์ที่ 2 -->
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card h-100 p-4 border-0 shadow-sm text-center" style="background-color: #e0eef3;">
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="images/organization.png" alt="โครงสร้างสังคม" style="height: 64px;">
+                            </div>
+                            <h2 class="fs-4 fw-bold mb-3">
+                                โครงสร้างสังคม
+                            </h2>
+                            <p class="card-text fs-5 text-dark leading-relaxed mb-0">
+                                เห็นช่องโหว่ทางกฎหมายและข้อจำกัดในการช่วยเหลือเหยื่อทารุณกรรม
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- คอลัมน์ที่ 3 -->
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card h-100 p-4 border-0 shadow-sm text-center" style="background-color: #e0eef3;">
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="images/freedom-of-speech.png" alt="สัญญาณความเงียบ" style="height: 64px;">
+                            </div>
+                            <h2 class="fs-4 fw-bold mb-3">
+                                สัญญาณความเงียบ
+                            </h2>
+                            <p class="card-text fs-5 text-dark leading-relaxed mb-0">
+                                การร้องขอความช่วยเหลือมักมาในรูปแบบความเงียบและการปิดกั้น
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- คอลัมน์ที่ 4 -->
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="card h-100 p-4 border-0 shadow-sm text-center" style="background-color: #e0eef3;">
+                            <div class="d-flex justify-content-center mb-3">
+                                <img src="images/heart (1).png" alt="การเยียวยาจิตใจ" style="height: 64px;">
+                            </div>
+                            <h2 class="fs-4 fw-bold mb-3">
+                                การเยียวยาจิตใจ
+                            </h2>
+                            <p class="card-text fs-5 text-dark leading-relaxed mb-0">
+                                การรับฟังโดยไม่ตัดสินและการโอบอุ้มกันช่วยกอบกู้หัวใจที่แตกสลาย
+                            </p>
+                        </div>
+                    </div>
+    </main>
+
+    <!-- Footer - สรุปคุณค่าของการอ่านหนังสือ -->
+    <footer class="footer-bg text-dark py-5">
+        <div class="container">
+
+            <div class="text-center">
+                <h2 class="fs-5 fst-italic text-white">
+                    การก้าวผ่านความแตกสลายไม่จำเป็นต้องเริ่มจากการเข้มแข็งในทันที
+                </h2>
+
+                <h1 class="fs-2 text-white py-3">
+                    "บาดแผลในใจจะถูกเยียวยาด้วยความเข้าใจที่เรามอบให้แก่กัน"
+                </h1>
+
+                <h2 class="fs-5 text-white mx-auto">
+                    แม้วันที่โดดเดี่ยวที่สุด เสียงของคุณก็ไม่ได้ไร้ความหมาย
+                    ด้วยเรื่องราวที่ช่วยโอบอุ้มหัวใจ<br>
+                    เหมาะกับทุกคนที่มองหาที่หยัดยืน ไม่เพียงแค่อ่านสนุก
+                    แต่ยังช่วยให้เรากลายเป็นผู้ฟังที่ดีขึ้นในชีวิตจริง
+                </h2>
+            </div>
+
+            <!-- แหล่งอ้างอิง -->
+            <p class="text-end text-white-50 small mb-0 mt-4">
+                อ้างอิงรูปภาพทั้งหมดจาก
+                <a href="https://www.naiin.com/" class="text-white text-decoration-none">
+                    www.naiin.com
+                </a>
+            </p>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Section - My Book Review -->
+    <section id="review" class="py-5 bg-light">
+        <div class="container">
+
+            <!-- หัวข้อ -->
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Other Books Recommend</h2>
+                <p class="text-secondary mb-0">
+                    หนังสือสนุกๆที่ฉันอยากแนะนำ
+                </p>
+            </div>
+
+            <!-- Carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide w-50 mx-auto">
+
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <!-- รูปภาพ -->
+                <div class="carousel-inner rounded-4 shadow">
+
+                    <div class="carousel-item active text-center">
+                        <img src="images/1000288407_front_XXL.jpg" class="img-fluid rounded-4"
+                            alt="ภาพหนังสือ 52 เฮิรตซ์">
+                    </div>
+
+                    <div class="carousel-item text-center">
+                        <img src="images/1000288811_front_XXL.jpg" class="img-fluid rounded-4"
+                            alt="ภาพหนังสือ 52 เฮิรตซ์">
+                    </div>
+
+                    <div class="carousel-item text-center">
+                        <img src="images/1000290053_front_XXL.jpg" class="img-fluid rounded-4"
+                            alt="ภาพหนังสือ 52 เฮิรตซ์">
+                    </div>
+
+                </div>
+
+                <!-- ปุ่มย้อนกลับ -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <!-- ปุ่มถัดไป -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
